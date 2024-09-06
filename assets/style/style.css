@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+.head {
+    text-align: center !important;
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 2.313rem;
+    color: #64646b;
+    margin: 0;
+}
+
+.head-bold {
+    text-align: center !important;
+    font-family: poppins-bold;
+    font-weight: 400;
+    font-size: 2.313rem;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: 0.031rem;
+    margin: 0;
+}
+
+.mainParagraph {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+    margin-top: 15px;
+}
+
+.cards {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-radius: 6px;
+    padding: 36px;
+    box-shadow: 0px 8px 11px 0px rgba(216,223,235,0.75);
+    -webkit-box-shadow: 0px 8px 11px 0px rgba(216,223,235,0.75);
+    -moz-box-shadow: 0px 8px 11px 0px rgba(216,223,235,0.75);
+    height: 15rem;
+}
+
+.cards-red {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.cards-orange {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.cards-blue {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+h3 {
+    font-family: poppins;
+    font-weight: 900 !important;
+    font-size: 1.4rem !important;
+    color: hsl(234, 12%, 34%) !important;
+}
+
+.cards p {
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 0.938rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.marginCards {
+    margin-top: 100px !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 32px 0 32px !important;
+        height: 100% !important;
+    }
+    .marginCards {
+        margin: 0 !important;
+    }
+    .head {
+        font-size: 1.42rem;
+    }
+    .head-bold {
+        font-size: 1.35rem;
+    }
+    .mainParagraph {
+        font-size: 0.6rem;
+    }
+}
